@@ -14,19 +14,19 @@ const products = [{
         id: 2,
         name: "Jeans Sleeve",
         price: 14.99,
-        imgSrc: "/Images/jean_sleeve.webp",
+        imgSrc: "Images/jean_sleeve.webp",
     },
     {
         id: 3,
         name: "Samsung Smartphone",
         price: 79.10,
-        imgSrc: "/Images/samsung.webp",
+        imgSrc: "Images/samsung.webp",
     },
     {
         id: 4,
         name: "Wireless Controller",
         price: 59.99,
-        imgSrc: "/Images/cursor.webp",
+        imgSrc: "Images/cursor.webp",
     },
     {
         id: 5,
@@ -68,6 +68,6 @@ const products = [{
         id: 11,
         name: "Swirlchair",
         price: 25.99,
-        imgSrc: "/Images/swirlchair.webp"
+        imgSrc: "Images/swirlchair.webp"
     },
 ];
