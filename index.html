@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div onclick="myFunction()" onclick="myFunction()" type="button">Product Cart |
+            <div class="total-items-in-cart">
+                (0)
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="products-list">
+        <div class="products">
+            <!-- product list -->
+        </div>
+        <section id="myDIV">
+            <div class="container content-section">
+                <h2 class="section-header">Cart Details</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">PRODUCT IMAGE</span>
+                    <span class="cart-name cart-header cart-column">NAME</span>
+                    <span class="cart-quantity cart-header cart-column" style="margin-left: 2rem; ">QUANTITY</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-item cart-header cart-column"
+                        style="margin-left: 2rem; padding-right: 2rem;">ACTION</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <!-- <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div> -->
+
+                <div class="totals">
+
+                    <div class="coupon">
+                        <h5>Apply Coupon to discount!</h5>
+                        <input class="coupon-code" type="text" placeholder="Coupon Code"><span class="app">Apply</span>
+                        <br>
+                        <button class="continue">Continue Shopping</button>
+                    </div>
+                    <div class="checkout">
+                        <!-- <div class="totals-item">
+                    <label>Subtotal</label>
+                    <div class="totals-value" id="cart-subtotal">71.97</div>
+                </div> -->
+
+                        <div class="cart-total" style="display:flex; justify-content: space-between; width: 80%;">Total
+                            <div class="subtotal">
+
+                                (0 items): $0
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-purchase" type="button">Checkout</button>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    <!-- <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button> -->
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            let y = document.getElementsByClassName("")
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        };
+    </script>
+
+
+
+    <script src="product.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
