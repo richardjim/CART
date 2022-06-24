@@ -32,37 +32,37 @@ const products = [{
         id: 5,
         name: "Headset",
         price: 39.20,
-        imgSrc: "/Images/headset.webp",
+        imgSrc: "Images/headset.webp",
     },
     {
         id: 6,
         name: "Call Of Duty",
         price: 19.99,
-        imgSrc: "/Images/call of duty.webp",
+        imgSrc: "Images/call of duty.webp",
     },
     {
         id: 7,
         name: "Violin",
         price: 17.99,
-        imgSrc: "/Images/violin.webp",
+        imgSrc: "Images/violin.webp",
     },
     {
         id: 8,
         name: "Mens Vintage",
         price: 20.99,
-        imgSrc: "/Images/vintage.webp",
+        imgSrc: "Images/vintage.webp",
     },
     {
         id: 9,
         name: "Sweatshirt",
         price: 25.99,
-        imgSrc: "/Images/unisex sweatshirt.webp"
+        imgSrc: "Images/unisex sweatshirt.webp"
     },
     {
         id: 10,
         name: "Rubic Cube",
         price: 17.99,
-        imgSrc: "/Images/rubic cube.webp"
+        imgSrc: "Images/rubic cube.webp"
     },
     {
         id: 11,
